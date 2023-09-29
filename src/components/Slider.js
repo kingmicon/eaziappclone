@@ -45,14 +45,15 @@ export function SlideshowItem({ children }) {
   const name = useRef(`${performance.now()}_${Math.random()}`);
   const [context] = useContext(SlideshowContext);
   const [stage, setStage] = useState("ready");
+  const names = name.current;
 
   useEffect(() => {
-    context.items.push(name.current);
+    context.items.push(names);
     return () => {
-      const index = context.items.indexOf(name.current);
+      const index = context.items.indexOf(names);
       context.items.splice(index, 1);
     };
-  }, []);
+  }, [names,context.items]);
 
   useEffect(() => {
     const activeName = context.items[0];
@@ -65,7 +66,7 @@ export function SlideshowItem({ children }) {
     if (activeName !== name.current && stage === "off") {
       setStage("ready");
     }
-  }, [context]);
+  }, [context, stage]);
 
   let left = 0;
   let zIndex = 0;
