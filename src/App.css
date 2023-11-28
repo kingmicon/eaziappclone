@@ -129,26 +129,7 @@
 .hamburger:hover {
   background-color: rgba(17, 69, 59, 0.20);
 }
- @media screen and (max-width: 640px) {
-  .navbar {
-    padding: 5px 10px;
-    width: 400px;
-  }
-  .naverbar {
-    display: block;
-    align-items: center;
-  }
-  .nav {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-  }
-  .logo {
-    width: 100px;
-  }
-  .hamburger {
-    display: block;
-  }
+@media screen and (max-width: 640px) {
   .mynav {
     position: absolute;
     right: 0;
@@ -159,34 +140,12 @@
     overflow: hidden;
     background-color: #fff;
   }
-  .mynav ul {
-    gap: 20px;
-    font-size: 20px;
-    line-height: 10px;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    width: 100%;
-    height: calc(50vh - 77px);
-  }
   .mynav.active {
     width: 270px;
   }
   .mynav ul li {
     margin-right: unset;
     margin-top: 22px;
-  }
-  .naverbar .btn {
-    gap: 12px;
-    padding-left: 10px;
-    margin-top: 20px;
-  }
-  .btn .btn1  button{
-    font-size: 10px;
-    line-height: 5px;
-    width: 80px;
-    padding: 7px 20px;
-    gap: 4px;
   }
   .btn .btn2 button {
     width: 80px;
@@ -242,14 +201,6 @@
     padding: 7px 20px;
     gap: 4px;
   }
-  .btn .btn2 button {
-    width: 80px;
-    padding: 7px 20px;
-    gap: 4px;
-    font-size: 10px;
-    line-height: 5px;
-  }
-  
 }
 /******************************************************/
 
@@ -385,17 +336,7 @@
   height: 550px;
   position: absolute;
 }
- @media screen and (max-width: 640px) {
-
-  .headerbody {
-    width: 401.999px;
-    height: 665.409px;
-    display: block;
-  }
-  .headertext{
-    padding-left: 32px;
-    display: block;
-  }
+@media screen and (max-width: 640px) {
   .headertext1 {
     width: 222px;
   }
@@ -429,19 +370,8 @@
     line-height: 14px;
   }
   .headertext2 {
-    margin-top: 10px;
-    gap: 5px;
-    width: 320px;
-  }
-  .headertext2 {
     font-size: 9px;
     line-height: 14px;
-  }
-  .textframe{
-    padding: 6px;
-    gap: 7px;
-    width: 320px;
-    font-size: 14px;
   }
   .text3 {
     padding: 6px;
@@ -452,16 +382,8 @@
   .text3image {
     width: 30px;
   }
-  .frame2{
-    margin-top: 10px;
-    margin-left: 0px;
-  }
-  .frame2 img {
-    width: 100.8%;
-    height: 300px;
-  }
 }
- @media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
    .headerbody {
     width: 370.999px;
     height: 665.409px;
@@ -472,61 +394,16 @@
     padding-left: 32px;
     display: block;
   }
-  .headertext1 {
-    width: 222px;
-  }
-  .headertext1 h1{
-    font-size: 24px;
-    line-height: 32px;
-  }
-  .headertext1 span.payroll{
-    font-size: 24px;
-    line-height: 32px;
-  }
-  .headertext1 span.easily{
-    font-size: 24px;
-    line-height: 32px;
-  }
-  .headertext1 span.seconds{
-    font-size: 24px;
-    line-height: 32px;
-  }
-  .headertext1 p {
-    width: 300.729px;
-    font-size: 15px;
-    line-height: 14px;
-    letter-spacing: 0.2px;
-  }
-  .headertext1 button {
-    width: 172px;
-    padding: 8px 18px;
-    gap: 4px;
-    font-size: 12px;
-    line-height: 14px;
-  }
   .headertext2 {
     margin-top: 5px;
     gap: 10px;
     width: 320px;
-  }
-  .headertext2 {
-    font-size: 9px;
-    line-height: 14px;
   }
   .textframe{
     padding: 6px;
     gap: 7px;
     width: 300px;
     font-size: 12px;
-  }
-  .text3 {
-    padding: 6px;
-    gap: 6px;
-    border-radius: 8px;
-    width: 300px;
-  }
-  .text3image {
-    width: 30px;
   }
   .frame2{
     width: 342px;
@@ -647,16 +524,6 @@
   letter-spacing: 0.2px;
 }
 @media screen and (max-width: 640px) {
-  .main1 {
-    width: 367px;
-    height: 412px;
-    margin-top: 120px;
-    gap: 24px;
-  }
-  .mainbackground{
-    gap: 10px;
-    padding: 36px 32px;
-  }
   .maintext {
     gap: 10px;
   }
@@ -668,57 +535,6 @@
     margin-bottom: 40px;
     font-size: 12px;
     line-height: 10px;
-  }
-  .slide {
-    width: 328px;
-    height: 150px;
-  }
-  .slide2 {
-    height: 220px;
-  }
-  .slidetext1  {
-    height: 163px;
-    width: 452px;
-    padding: 14px;
-    gap: 1px;
-    line-height: 1px;
-  }
-  .slidetext1 ul li {
-    line-height: 20px;
-  }
-  .slidetext2  {
-    height: 163px;
-    width: 452px;
-    padding: 14px;
-    gap: 1px;
-    line-height: 1px;
-  }
-  .slidetext2 ul li {
-    line-height: 20px;
-  }
-  .slidetext3  {
-    height: 163px;
-    width: 452px;
-    padding: 14px;
-    gap: 10px;
-    line-height: 1px;
-  }
-  .slidetext3 ul li {
-    line-height: 20px;
-  }
-  .maintext2 {
-    gap: 10px;
-    margin-top: 40px;
-
-  }
-  .maintext2  h4 {
-    width: 321.74px;
-    font-size: 12px;
-    line-height: 14px;
-  }
-  .maintext2 span {
-    font-size: 10px;
-    line-height: 14px;
   }
 }
 @media screen and (max-width: 640px) {
@@ -731,18 +547,6 @@
   .mainbackground{
     gap: 10px;
     padding: 76px 32px;
-  }
-  .maintext {
-    gap: 10px;
-  }
-  .maintext h1 {
-    font-size: 20px;
-    line-height: 10px;
-  }
-  .maintext p {
-    margin-bottom: 40px;
-    font-size: 12px;
-    line-height: 10px;
   }
   .slides {
     height: 300px;
@@ -942,10 +746,6 @@
   align-self: stretch;
 }
 @media screen and (max-width: 640px) {
-  .heading1 {
-    width: 341px;
-    height: 982px;
-  }
   .headingtext {
     gap: 8px;
   }
@@ -956,15 +756,6 @@
   .headingtext h4 {
     font-size: 14px;
     line-height: 6px;
-  }
-  .easystep {
-    display: inline-flex;
-    width: 284px;
-    gap: 20px;
-  }
-  .easystepimage {
-    margin-left: 20px;
-    margin-top: -100px;
   }
   .easystepimage2 {
     width: 177.149px;
@@ -979,30 +770,6 @@
   .steptext {
     width: 221px;
     height: 308px;
-  }
-  .steptext1 {
-    margin-top: 500px;
-    margin-left: -100px;
-  }
-  .steptext2 {
-    margin-top: 645px;
-    margin-left: -95px;
-  }
-  .steptext3 {
-    margin-top: 760px;
-    margin-left: -95px;
-  }
-  .steptext1 svg {
-    width: 250px;
-    height: 159px;
-    margin-top: 10px;
-    margin-left: -217px;
-  }
-  .steptext2 svg {
-    width: 160px;
-    height: 149px;
-    margin-left: 40px;
-    margin-top: -120px;
   }
   .stepcard {
     width: 160px;
@@ -1041,17 +808,6 @@
     height: 842px;
     margin-top: 20px;
   }
-  .headingtext {
-    gap: 8px;
-  }
-  .headingtext h1 {
-    font-size: 24px;
-    line-height: 14px;
-  }
-  .headingtext h4 {
-    font-size: 14px;
-    line-height: 6px;
-  }
   .easystep {
     display: block;
     width: 284px;
@@ -1060,20 +816,6 @@
   .easystepimage {
     margin-left: 60px;
     margin-top: 20px;
-  }
-  .easystepimage2 {
-    width: 177.149px;
-    height: 177.149px;
-  }
-  .easystepimage img {
-    width: 217.614px;
-    height: 382px;
-    flex-shrink: 0;
-    border-radius: 43.267px;
-  }
-  .steptext {
-    width: 221px;
-    height: 308px;
   }
   .steptext1 {
     margin-top: 250px;
@@ -1098,36 +840,6 @@
     height: 119px;
     margin-left: 20px;
     margin-top: -70px;
-  }
-  .stepcard {
-    width: 160px;
-    gap: 12px;
-  }
-  .stepcardnumber {
-    width: 14px;
-    height: 14px;
-    padding: 8px 13px;
-    gap: 3px;
-    border-radius: 8px;
-  }
-  .stepcardnumber h1 {
-    gap: 8px;
-    font-size: 14px;
-    line-height: 18px;
-  }
-  .stepcardtext{
-    gap: 8px;
-  }
-  .stepcardtext p {
-    font-size: 8px;
-    line-height: 12px;
-  }
-  .stepcardtext1 {
-    gap: 8px;
-  }
-  .stepcardtext1 p {
-    font-size: 8px;
-    line-height: 12px;
   }
 }
 
@@ -1248,11 +960,6 @@
     margin-top: 40px;
     width: 360px;
   }
-  .thirdmainimg img {
-    width: 29.912px;
-    gap: 1.454px;
-    padding-left: 62px;
-  }
   .thirdmaintext {
     gap: 12px;
     padding-left: 42px;
@@ -1273,58 +980,12 @@
   .subscritiontext {
     gap: 1px;
   }
-  .subscritiontext h4 {
-    font-size: 10px;
-    line-height: 4px;
-  }
-  .wheretosubscribe{
-    gap: 8px;
-  }
-  .applesub{
-    padding: 6px;
-    gap: 6px;
-    border-radius: 8px;
-  }
-  .appletext h4{
-    line-height: 1px;
-  }
-  .appletext h2 {
-    font-size: 15px;
-    line-height: 1px;
-  }
-  .image img {
-    margin-top: 20px;
-    margin-left: 0px;
-    width: 350px;
-    height: 400px;
-  }
 }
 @media screen and (max-width: 640px) {
-  .thirdmain {
-    margin-top: 40px;
-    width: 360px;
-  }
   .thirdmainimg img {
     width: 49.912px;
     gap: 8.454px;
     padding-left: 10px;
-  }
-  .thirdmaintext {
-    gap: 12px;
-    padding-left: 42px;
-  }
-  .thirdmaintext1 {
-    width: 252px;
-    gap: 1px;
-    margin-top: 2px;
-  }
-  .thirdmaintext1 h1 {
-    font-size: 30px;
-    line-height: 30px;
-  }
-  .thirdmaintext1 span {
-    font-size: 30px;
-    line-height: 30px;
   }
   .subscritiontext h4 {
     font-size: 12px;
@@ -1562,11 +1223,6 @@
 }
 
 @media screen and (max-width: 640px) {
-  .fourthmain1 {
-    width: 442px;
-    height: 547px;
-    padding-top: 40px;
-  }
   .simpleformimg img {
     width: 82px;
     height: 82px;
@@ -1576,20 +1232,9 @@
     height: 304px;
     display: block;
   }
-  .simpleformtext {
-    width: 342px;
-    gap: 20px;
-    padding-top: 80px;
-    margin-left: -40px;
-  }
   .simpleformtext h1 {
     font-size: 34px;
     line-height: 34px;
-  }
-  .simpleformtext p {
-    width: 185px;
-    font-size: 15px;
-    line-height: 30px;
   }
   .simpleform1 {
     gap: 12px;
@@ -1645,14 +1290,6 @@
     padding-bottom: 4px;
     margin-top: 8px;
   }
-  
-  .simpleform2 form  button {
-    margin-top: 7px;
-    padding: 8px 80px 8px 80px;
-    gap: 4px;
-    font-size: 8px;
-  }
-
 }
 
 @media screen and (max-width: 640px) {
@@ -1664,83 +1301,16 @@
     height: 747px;
     padding-top: 40px;
   }
-  .simpleformimg img {
-    width: 82px;
-    height: 82px;
-  }
-  .simpleform {
-    width: 558px;
-    height: 304px;
-    display: block;
-  }
   .simpleformtext {
     width: 342px;
     gap: 1px;
     padding-top: 80px;
     margin-left: -40px;
   }
-  .simpleformtext h1 {
-    font-size: 34px;
-    line-height: 34px;
-  }
   .simpleformtext p {
     width: 135px;
     font-size: 15px;
     line-height: 20px;
-  }
-  .simpleform1 {
-    gap: 12px;
-    width: 320px;
-    margin-left: -60px;
-  }
-  .simpleformheading {
-    gap: 6px;
-  }
-  .simpleformheading h1 {
-    font-size: 14px;
-    line-height: 24px;
-  }
-  .simpleformheading h4 {
-    width: 142px;
-    font-size: 10px;
-    line-height: 12px;
-  }
-  .indicatorbuttonbody {
-    width: 260px;
-    padding: 8px;
-  }
-  .indicatorbutton1 {
-    width: 120px;
-    padding: 8px;
-  }
-  .indicatorbutton1 button {
-    padding: 8px 11.504px;
-    gap: 5.504px;
-  }
-  .indicatorbutton1 button a {
-    font-size: 8px;
-    line-height: 12px;
-  }
-  .indicatorbutton2 {
-    width: 120px;
-    padding: 8px;
-  }
-  .indicatorbutton2 button {
-    padding: 8px 11.504px;
-    gap: 5.504px;
-  }
-  .indicatorbutton2 button a {
-    font-size: 8px;
-    line-height: 12px;
-  }
-  .simpleform2 form  input{
-    font-size: 10px;
-    line-height: 10px;
-    padding-left: 20px;
-    padding-right: 80px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    margin-top: 8px;
   }
   
   .simpleform2 form  button {
@@ -1866,49 +1436,14 @@
   overflow: hidden;
 }
 @media screen and (max-width: 640px) {
-  .footer {
-    display: block;
-    width: 452px;
-    margin-top: 220px;
-    padding-top: 20px;
-    padding-left:  52px;
-    gap: 25px;
-  }
-  .companyinfo {
-    gap: 20px;
-  }
-  .copywritetext {
-    gap: 80px;
-    align-self: stretch;
-  }
-  .copywritetext p {
-    width: 150px;
-    font-size: 10px;
-    line-height: 20px;
-  }
-  .sociallinks {
-    gap: 20px;
-  }
   .sociallinks svg {
     width: 40px;
-  }
-  .links {
-    display: block;
-    gap: 40px;
-    margin-top: 40px;
-    margin-left: 0px;
-  }
-  .products {
-    gap: 80px;
   }
   .products h1 {
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-bottom: 20px;
-    line-height: 30px;
   }
   .products ul li {
-    gap: 30px;
     padding-bottom: 15px;
   }
   .products ul li button {
@@ -1942,9 +1477,6 @@
   }
   .sociallinks {
     gap: 1px;
-  }
-  .sociallinks svg {
-    width: 40px;
   }
   .links {
     display: block;
