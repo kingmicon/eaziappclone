@@ -129,9 +129,7 @@
 .hamburger:hover {
   background-color: rgba(17, 69, 59, 0.20);
 }
-
-
- @media screen and (max-width: 400px) {
+ @media screen and (max-width: 640px) {
   .navbar {
     padding: 5px 10px;
     width: 400px;
@@ -196,10 +194,9 @@
     gap: 4px;
     font-size: 10px;
     line-height: 5px;
-  }
-  
+  } 
 } 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 640px) {
   .navbar {
     width: 371px;
     padding: 20px 20px;
@@ -388,7 +385,7 @@
   height: 550px;
   position: absolute;
 }
- @media screen and (max-width: 400px) {
+ @media screen and (max-width: 640px) {
 
   .headerbody {
     width: 401.999px;
@@ -464,7 +461,7 @@
     height: 300px;
   }
 }
- @media screen and (max-width: 1200px) {
+ @media screen and (max-width: 640px) {
    .headerbody {
     width: 370.999px;
     height: 665.409px;
@@ -724,7 +721,7 @@
     line-height: 14px;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 640px) {
   .main1 {
     width: 380px;
     height: 582px;
@@ -1038,7 +1035,7 @@
     line-height: 12px;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 640px) {
   .heading1 {
     width: 341px;
     height: 842px;
@@ -1302,7 +1299,7 @@
     height: 400px;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 640px) {
   .thirdmain {
     margin-top: 40px;
     width: 360px;
@@ -1658,7 +1655,7 @@
 
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 640px) {
   .fourthmain {
     width: 370px;
   }
@@ -1922,7 +1919,7 @@
     background-color: #FFF;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 640px) {
   .footer {
     display: block;
     width: 352px;
