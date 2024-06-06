@@ -11,18 +11,15 @@ import { useEffect, useState } from 'react';
 import Loadingstate from './components/Loadingstate';
 
 function App() {
-  const [loading, setloading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
-  const handleLoading = () => {
-    setTimeout (() => {
-    setloading(false)
-     }, 1000);
-  }
 
-  useEffect (() => {
-      window.addEventListener("load", handleLoading);
-      return () => window.removeEventListener("load", handleLoading);
-  }, [])
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, []);
   return !loading ? (
     <div className="App">
       <Navbar />
